@@ -30,7 +30,7 @@ $bdd = $accessBdd->getBdd();
 * The data you get for the put, post and delete functions should be retrieved using this format below
 ```
  $data = json_decode(file_get_contents('php://input'), true);  // true means you can convert data to array
-``
+```
 **NOTE**: You can read more on this on php website
 * You can use __postman__ to check the success of your functions by entering the url of your xampp server
 and linking it to the file that contains your CRUD operations. In my own case my localhost url was
